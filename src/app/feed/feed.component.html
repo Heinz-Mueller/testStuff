@@ -1,0 +1,29 @@
+
+<div class="ui comments">
+    <div class="comment" *ngFor='let i of tweets2'>
+        <a class="avatar">
+            <img class="img-responsive" src="assets/{{i.ava}}">
+        </a>
+
+        <div class="content">
+            <a class="author">{{i.author}}</a>
+             <div class="metadata">
+                <span class="date">{{i.date | date}}</span>
+            </div>
+            <div class="text">
+                {{i.body}}
+            </div>
+            <div class="actions">
+                <a class="reply">Antwort</a>
+                <a class="like">
+                    <i class="like icon"></i>{{i.favorites.length}} Favorites
+                </a>
+
+                <a class="retweet">
+                    <i class="retweet icon"></i>{{i.retweets.length}} Retweets
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
