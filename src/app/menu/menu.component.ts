@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   total = 0;
+  test = false;
 
   constructor() { }
 
