@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
   hund: String = 'belo';
 
+  tier: String = 'CAT';
+  noise: String = 'meow';
+
   constructor() { }
 
   ngOnInit() {
