@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   hund: String = 'belo';
+  katze: String = 'luna';
 
   tier: String = 'CAT';
   noise: String = 'meow';
