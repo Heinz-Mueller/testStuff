@@ -9,6 +9,8 @@ export class MenuComponent implements OnInit {
   hund: String = 'belo';
   katze: String = 'luna';
 
+  total = 0;
+  test = false;
   tier: String = 'CAT';
   noise: String = 'meow';
 
