@@ -10,6 +10,8 @@ export class MenuComponent implements OnInit {
   tier: String = 'CAT';
   noise: String = 'meow';
 
+  ja: String = 'ja';
+
   constructor() { }
 
   ngOnInit() {
