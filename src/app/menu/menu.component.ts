@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
   noise: String = 'meow';
 
   ja: String = 'ja';
+  nein: String = 'nein';
 
   constructor() { }
 
