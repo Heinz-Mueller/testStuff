@@ -16,6 +16,8 @@ export class MenuComponent implements OnInit {
 
   ja: String = 'ja';
 
+  maybe: String = 'maybe'; // soll bei allen branches sein!
+
   constructor() { }
 
   ngOnInit() {
